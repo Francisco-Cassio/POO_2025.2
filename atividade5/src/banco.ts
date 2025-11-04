@@ -44,7 +44,6 @@ export class Banco {
 
   carregarDados(): void {
     console.log("Carregando dados iniciais...");
-    // Instancia 5 clientes
     let c1 = new Cliente("111", "Ana");
     let c2 = new Cliente("222", "Bruno");
     let c3 = new Cliente("333", "Carla");
